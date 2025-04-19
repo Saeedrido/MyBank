@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking App</title>
+    <link rel="stylesheet" href="css/BankApplication.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Banking System</h1>
+        <div class="balance-section">
+            <p>Balance: <span id="balance">****</span></p>
+            <button class="toggle-button" onclick="toggleBalance()">Show/Hide Balance</button>
+        </div>
+    
+        <div class="actions">
+            <div class="action-item" onclick="deposit()">
+                <div class="icon-container">
+                    <img src="imges/deposit.png" alt="Deposit" class="action-icon">
+                </div>
+                <p>Deposit</p>
+            </div>
+            <div class="action-item" onclick="withdraw()">
+                <div class="icon-container">
+                    <img src="imges/witdraw.png" alt="Withdraw" class="action-icon">
+                </div>
+                <p>Withdraw</p>
+            </div>
+            <div class="action-item" onclick="transfer()">
+                <div class="icon-container">
+                    <img src="imges/transfer.png" alt="Transfer" class="action-icon">
+                </div>
+                <p>Transfer</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- image for the next div  -->
+    <div class="other-actions">
+        <div class="action-item">
+            <div class="icon-container">
+                <img src="imges/airtime.png" alt="Deposit" class="action-icon">
+            </div>
+            <p>Airtime</p>
+        </div>
+        <div class="action-item">
+            <div class="icon-container">
+                <img src="imges/Data.png" alt="Withdraw" class="action-icon">
+            </div>
+            <p>Data</p>
+        </div>
+        <div class="action-item">
+            <div class="icon-container">
+                <img src="imges/loan.png" alt="Transfer" class="action-icon">
+            </div>
+            <p>Loan</p>
+        </div>
+        <div class="action-item">
+            <div class="icon-container">
+                <img src="imges/betting.jpg" alt="Deposit" class="action-icon">
+            </div>
+            <p>Betting</p>
+        </div>
+        <div class="action-item">
+            <div class="icon-container">
+                <img src="imges/tv.png" alt="Withdraw" class="action-icon">
+            </div>
+            <p>Tv</p>
+        </div>
+        <div class="action-item">
+            <div class="icon-container">
+                <img src="imges/safebox.png" alt="Transfer" class="action-icon">
+            </div>
+            <p>Safebox</p>
+        </div>
+        <div class="action-item">
+            <div class="icon-container">
+                <img src="imges/invitation.png" alt="Deposit" class="action-icon">
+            </div>
+            <p>Invitation</p>
+        </div>
+        <div class="action-item">
+            <div class="icon-container">
+                <img src="imges/deposit.png" alt="Withdraw" class="action-icon">
+            </div>
+            <p>More</p>
+        </div>
+    </div>
+    
+    
+
+    <!-- Image Section in the bottom-->
+    <div class="image-container">
+        <div class="icon">
+            <img src="imges/download.png" alt="Cards" class="icon-image">
+            <p>Home</p>
+        </div>
+        <div class="icon">
+            <img src="imges/reward.png" alt="Cards" class="icon-image">
+            <p>Reward</p>
+        </div>
+        <div class="icon">
+             <img src="imges/finance.png" alt="Cards" class="icon-image">
+            <p>Finance</p>
+        </div>
+        <div class="icon">
+            <img src="imges/card.png" alt="Cards" class="icon-image">
+            <p>Cards</p>
+        </div>
+        <div class="icon">
+           <a href="TransactionandMore.html"> <img src="imges/me.png" alt="Cards" class="icon-image"></a>
+            <p>Me</p>
+        </div>
+    </div>
+
+    <script src="script/BankApplication.js"></script>
+</body>
+</html>
